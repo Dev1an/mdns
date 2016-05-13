@@ -1,8 +1,8 @@
 Package.describe({
   name: 'devian:mdns',
-  version: '0.0.1',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
-  summary: '',
+  summary: 'A wrapper around the mdns node module with callbacks running in fibers.',
   // URL to the Git repository containing the source code for this package.
   git: '',
   // By default, Meteor will default to using README.md for documentation.
@@ -11,7 +11,7 @@ Package.describe({
 });
 
 Npm.depends({
-  'mdns': "2.2.9"
+  'mdns': "2.3.3"
 })
 
 Package.onUse(function(api) {
