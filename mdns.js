@@ -29,5 +29,7 @@ Mdns = {
 	udp: mdns.udp,
 
 	rst: mdns.rst,
-	isAvahi: mdns.isAvahi
+	isAvahi: mdns.isAvahi,
+
+	dns_sd: mdns.dns_sd
 }
