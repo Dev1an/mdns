@@ -1,6 +1,6 @@
 Package.describe({
   name: 'devian:mdns',
-  version: '0.0.3',
+  version: '0.0.4',
   // Brief, one-line summary of the package.
   summary: 'A wrapper around the mdns node module with callbacks running in fibers.',
   // URL to the Git repository containing the source code for this package.
@@ -11,7 +11,7 @@ Package.describe({
 });
 
 Npm.depends({
-  'mdns': "2.3.3"
+  'mdns': "2.5.1"
 })
 
 Package.onUse(function(api) {
